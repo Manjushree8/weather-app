@@ -12,7 +12,20 @@
 ### 🔹 Mobile View
 ![Mobile Screenshot](src/assets/screenshots/MobileView.png)
 
-> 📸 Replace the image URLs above with your actual screenshots.
+## Folder structure 
+
+weatherApp/
+├── src/
+│   ├── Weather.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── public/
+│   └── index.html
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
 
 ---
 
@@ -44,17 +57,4 @@ Replace this line in the code to use your API key:
 ```js
 `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY`
 
-## Folder structure 
 
-weatherApp/
-├── src/
-│   ├── Weather.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── public/
-│   └── index.html
-├── tailwind.config.js
-├── postcss.config.js
-├── package.json
-└── README.md
