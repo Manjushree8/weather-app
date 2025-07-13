@@ -57,4 +57,9 @@ Replace this line in the code to use your API key:
 ```js
 `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY`
 
+## 🌍 Live Demo
+
+Check it out live here: [skycheck.vercel.app](https://weather-app-manjushrees-projects.vercel.app/)
+
+> Deployed with ❤️ using [Vercel](https://vercel.com/)
 
