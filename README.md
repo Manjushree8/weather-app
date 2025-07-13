@@ -1,12 +1,60 @@
-# React + Vite
+# 🌤️ SkyCheck - Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**SkyCheck** is a beautiful, responsive weather forecast web app built with **React**, **Axios**, and **Tailwind CSS**. It lets users check real-time weather conditions for any city worldwide.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##  Screenshots
 
-## Expanding the ESLint configuration
+### 🔹 Desktop View
+![Desktop Screenshot](src/assets/screenshots/DesktopView.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Mobile View
+![Mobile Screenshot](src\assets\screenshots\MobileView.png)
+
+> 📸 Replace the image URLs above with your actual screenshots.
+
+---
+
+##  Features
+
+-  Enter any city name to get the current weather
+-  Displays temperature (Kelvin)
+-  Shows main weather condition and description
+-  Clean and modern UI with smooth transitions
+-  Fully responsive for both desktop and mobile
+
+---
+
+##  Tech Stack
+
+- **React JS** – Frontend Framework
+- **Axios** – For API integration
+- **Tailwind CSS** – Styling & animations
+- **OpenWeatherMap API** – Weather data provider
+
+---
+
+##  API Used
+
+Data is fetched from **[OpenWeatherMap](https://openweathermap.org/api)**.
+
+Replace this line in the code to use your API key:
+
+```js
+`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY`
+
+## Folder structure 
+
+weatherApp/
+├── src/
+│   ├── Weather.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── public/
+│   └── index.html
+├── tailwind.config.js
+├── postcss.config.js
+├── package.json
+└── README.md
