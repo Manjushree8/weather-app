@@ -10,7 +10,7 @@
 ![Desktop Screenshot](src/assets/screenshots/DesktopView.png)
 
 ### 🔹 Mobile View
-![Mobile Screenshot](src\assets\screenshots\MobileView.png)
+![Mobile Screenshot](src/assets/screenshots/MobileView.png)
 
 > 📸 Replace the image URLs above with your actual screenshots.
 
